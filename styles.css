@@ -176,3 +176,9 @@ body{
   font-weight: 400;
   color: black;
 }
+.kont{
+  width: 1150px;
+  height: 670px;
+  background-image: url(Kontact.svg);
+  margin: 150px auto;
+}
