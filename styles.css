@@ -130,6 +130,7 @@ body{
 }
 .workbox:hover{
   transform: scale(1.1);
+  
 }
 .workbox{
   width: 200px;
@@ -181,4 +182,20 @@ body{
   height: 670px;
   background-image: url(Kontact.svg);
   margin: 150px auto;
+}
+.socMenu{
+ display: flex;
+ justify-content: space-between;
+ text-decoration: none;
+ flex-direction: column;
+ align-items: flex-end;
+ padding-right: 10px;
+}
+.call{
+ padding-top: 100px;
+ padding-right: 20px;
+}
+.linkSoc:hover{
+  transform: scale(1.1);
+
 }
