@@ -178,10 +178,13 @@ body{
   color: black;
 }
 .kont{
+  display: flex;
   width: 1150px;
   height: 670px;
   background-image: url(Kontact.svg);
   margin: 150px auto;
+  justify-content: space-between;
+  align-items: center;
 }
 .socMenu{
  display: flex;
@@ -197,5 +200,13 @@ body{
 }
 .linkSoc:hover{
   transform: scale(1.1);
-
+}
+.soc{
+  margin-top: 80px;
+}
+.callTitle{
+  font-family: "Kelly Slab", serif;
+  font-weight: 400;
+  color: black;
+  font-size: 48px;
 }
