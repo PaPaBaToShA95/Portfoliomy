@@ -1,161 +1,143 @@
 <!DOCTYPE html>
 <html lang="uk">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PaPaBaToShA95</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Kelly+Slab&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header class="test">
-      <div class="menu container">
-        <div class="logo">
-          <a href="#">
-            <img src="Name.svg" alt="PaPaBaToShA95" />
-          </a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PaPaBaToShA95</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Kelly+Slab&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header class="test">
+    <div class="menu container">
+      <div class="logo">
+        <a href="#">
+          <img src="Name.svg" alt="PaPaBaToShA95" />
+        </a>
+      </div>
+      <div class="menuMenu">
+      <script>
+  function scrollToTarget(event, sectionId) {
+    event.preventDefault();
+    const target = document.getElementById(sectionId);
+    target.scrollIntoView({ behavior: 'smooth', block: 'end' });
+  }
+</script>
+        <ul class="headerMenu">
+          <li><a class="linkMenu" href="#aboutMe" onclick="scrollToTarget(event, 'aboutMe')">Про мене</a></li>
+          <li><a class="linkMenu" href="#myWorks" onclick="scrollToTarget(event, 'myWorks')">Мої роботи</a></li>
+          <li><a class="linkMenu" href="#cont" onclick="scrollToTarget(event, 'cont')">Контакти</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section  class="AboutMe">
+      <div id="aboutMe" class="aboutMeBlok">
+        <img src="AboutMe.svg" />
+      </div>
+    </section>
+    <section >
+      <div  id="myWorks" class="MyWorks">
+        <div class="firstline">
+          <div class="workbox">
+            <div class="workImg">
+              <i></i>
+            </div>
+            <div class="workLink">
+              <a class="linkW" href="https://papabatosha95.github.io/Maket-UpDate/">Maket-UpDate</a>
+            </div>
+          </div>
+          <div class="workbox">
+            <div class="workImg2">
+              <i></i>
+            </div>
+            <div class="workLink">
+              <a class="linkW" href="https://papabatosha95.github.io/Whirl">Whirl</a>
+            </div>
+          </div>
+          <div class="workbox">
+            <div class="workImg3">
+              <i></i>
+            </div>
+            <div class="workLink">
+              <a class="linkW" href="https://papabatosha95.github.io/Enver/">Enver</a>
+            </div>
+          </div>
+          <div class="workbox">
+            <div class="workImg4">
+              <i></i>
+            </div>
+            <div class="workLink">
+              <a class="linkW" href="https://papabatosha95.github.io/Baza/">База даних</a>
+            </div>
+          </div>
         </div>
-        <div class="menuMenu">
-          <ul class="headerMenu">
-            <li><a class="linkMenu" href="#">Головна</a></li>
-            <li><a class="linkMenu" href="#">Про мене</a></li>
-            <li><a class="linkMenu" href="#">Мої роботи</a></li>
-            <li><a class="linkMenu" href="#">Контакти</a></li>
+        <div class="secondline">
+          <div class="workbox">
+            <div class="workImg5">
+              <i></i>
+            </div>
+            <div class="workLink">
+              <a class="linkW" href="https://papabatosha95.github.io/TTT/">Tik-Tac-Toe</a>
+            </div>
+          </div>
+          <div class="workbox">
+            <div class="workImg6">
+              <i></i>
+            </div>
+            <div class="workLink">
+              <a class="linkW" href="https://papabatosha95.github.io/kalendar/">Challenge схудненя</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div id="cont" class="kont">
+        <div class="call">
+          <p class="callTitle">Зворотній зв`язок</p>
+          <form class="form" action="https://formsubmit.co/mawabel43@gmail.com" method="POST" />
+          <label class="name" for="name"></label>
+          <input class="name" type="text" id="name" name="name" placeholder="Введіть ваше ім`я" required /><br /><br />
+
+          <label  for="email"></label>
+          <input class="email" type="email" id="email" name="email" placeholder="Введіть ваш email" required />
+          <input  type="hidden" name="_next" value="https://papabatosha95.github.io/Portfoliomy/"><br /><br />
+
+          <input  class="btn" type="submit" value="Зв`язатися" />
+          </form>
+        </div>
+        <div class="soc">
+          <ul class="socMenu">
+            <li class="socMenu">
+              <a class="linkSoc" href="https://github.com/PaPaBaToShA95"><img src="Group 5.png" /></a>
+            </li>
+            <li class="socMenu">
+              <a class="linkSoc"
+                href="https://www.linkedin.com/in/%D0%BE%D0%BB%D0%B5%D0%BA%D1%81%D1%96%D0%B9-%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D1%82%D1%80%D0%B0%D1%83%D1%82-6a6241343/"><img
+                  src="Group 4.png" /></a>
+            </li>
+            <li class="socMenu">
+              <a class="linkSoc" href="https://t.me/PaPaBaToShA"><img src="Group 3.png" /></a>
+            </li>
+            <li class="socMenu">
+              <a class="linkSoc" href="https://www.tiktok.com/@papabatosha"><img src="Group 2.png" /></a>
+            </li>
           </ul>
         </div>
       </div>
-    </header>
-    <main>
-      <section class="AboutMe">
-        <div class="aboutMeBlok">
-          <img src="AboutMe.svg" />
-        </div>
-      </section>
-      <section>
-        <div class="MyWorks">
-          <div class="firstline">
-            <div class="workbox">
-              <div class="workImg">
-                <i></i>
-              </div>
-              <div class="workLink" >
-                <a
-                  class="linkW"
-                  href="https://papabatosha95.github.io/Maket-UpDate/"
-                  >Maket-UpDate</a
-                >
-              </div>
-            </div>
-            <div class="workbox">
-              <div class="workImg2">
-                <i></i>
-              </div>
-              <div class="workLink">
-                <a class="linkW" href="https://papabatosha95.github.io/Whirl"
-                  >Whirl</a
-                >
-              </div>
-            </div>
-            <div class="workbox">
-              <div class="workImg3">
-                <i></i>
-              </div>
-              <div class="workLink">
-                <a class="linkW" href="https://papabatosha95.github.io/Enver/"
-                  >Enver</a
-                >
-              </div>
-            </div>
-            <div class="workbox">
-              <div class="workImg4">
-                <i></i>
-              </div>
-              <div class="workLink">
-                <a class="linkW" href="https://papabatosha95.github.io/Baza/"
-                  >База даних</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="secondline">
-            <div class="workbox">
-              <div class="workImg5">
-                <i></i>
-              </div>
-              <div class="workLink">
-                <a class="linkW" href="https://papabatosha95.github.io/TTT/"
-                  >Tik-Tac-Toe</a
-                >
-              </div>
-            </div>
-            <div class="workbox">
-              <div class="workImg6">
-                <i></i>
-              </div>
-              <div class="workLink">
-                <a
-                  class="linkW"
-                  href="https://papabatosha95.github.io/kalendar/"
-                  >Challenge схудненя</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section>
-        <div class="kont">
-          <div class="call">
-            <p class="callTitle">Зворотній зв`язок</p>
-            <form action="https://formsubmit.co/mawabel43@gmail.com" method="POST" />
-              <label for="name">Ваше ім'я:</label>
-              <input type="text" id="name" name="name" required /><br /><br />
+    </section>
+    <footer>
+<p class="footer">© 2025 made by PaPaBaToShA</p>
+    </footer>
+  </main>
+</body>
 
-              <label for="email">Ваша пошта:</label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                required
-              />
-              <input type="hidden" name="_next" value="https://papabatosha95.github.io/Portfoliomy/"><br /><br />
-
-              <input type="submit" value="Відправити" />
-            </form>
-          </div>
-          <div class="soc">
-            <ul class="socMenu">
-              <li class="socMenu">
-                <a class="linkSoc" href="https://github.com/PaPaBaToShA95"
-                  ><img src="Group 5.png"
-                /></a>
-              </li>
-              <li class="socMenu">
-                <a
-                  class="linkSoc"
-                  href="https://www.linkedin.com/in/%D0%BE%D0%BB%D0%B5%D0%BA%D1%81%D1%96%D0%B9-%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D1%82%D1%80%D0%B0%D1%83%D1%82-6a6241343/"
-                  ><img src="Group 4.png"
-                /></a>
-              </li>
-              <li class="socMenu">
-                <a class="linkSoc" href="https://t.me/PaPaBaToShA"
-                  ><img src="Group 3.png"
-                /></a>
-              </li>
-              <li class="socMenu">
-                <a class="linkSoc" href="https://www.tiktok.com/@papabatosha"
-                  ><img src="Group 2.png"
-                /></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-    </main>
-  </body>
 </html>

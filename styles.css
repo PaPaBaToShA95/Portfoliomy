@@ -6,7 +6,7 @@ html{
 }
 body{
   width: 1200px;
-  height: 3800px;
+  height: max-content;
   background: linear-gradient(100deg, #f1c40f, #3498db);
   border-radius: 50px;
   box-shadow: 20px 20px 20px 10px rgb(0 0 0 / 70%);
@@ -18,7 +18,7 @@ body{
 .menu{
   margin-top: 20px ;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   
 }
 .test{
@@ -37,7 +37,7 @@ body{
 .menuMenu{
   background-color: #B1A2FF;
   border-radius: 30px;
-  width: 686px;
+  width: 500px;
   height: 100px;
   box-shadow: 10px 10px 20px 0px rgb(0 0 0 / 50%);
   margin: 20px 0px 0px 50px;
@@ -176,6 +176,7 @@ body{
   font-family: "Kelly Slab", serif;
   font-weight: 400;
   color: black;
+  
 }
 .kont{
   display: flex;
@@ -184,7 +185,7 @@ body{
   background-image: url(Kontact.svg);
   margin: 150px auto;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 .socMenu{
  display: flex;
@@ -195,8 +196,11 @@ body{
  padding-right: 10px;
 }
 .call{
- padding-top: 100px;
+ padding-top: 120px;
  padding-right: 20px;
+ display: flex;
+ flex-direction: column;
+ margin-left: 60px;
 }
 .linkSoc:hover{
   transform: scale(1.1);
@@ -209,4 +213,56 @@ body{
   font-weight: 400;
   color: black;
   font-size: 48px;
+  padding-left: 60px;
+  margin-bottom: 0px;
+  
+}
+.name{
+  font-family: "Kelly Slab", serif;
+  font-weight: 400;
+  font-size: 32px;
+  width: 450px;
+  height: 40px;
+  border-radius: 15px;
+  
+
+}
+.email{
+  font-family: "Kelly Slab", serif;
+  font-weight: 400;
+  font-size: 32px;
+  width: 450px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: none;
+
+}
+.form{
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.btn {
+  width: 300px;
+  height: 50px;
+margin-left: 160px;
+border-radius: 20px;
+background-color: #63c7fd;
+box-shadow: 10px 10px 20px 0px rgb(0 0 0 / 50%);
+font-family: "Kelly Slab", serif;
+font-size: 24px;
+
+}
+.btn:hover{
+  transform: scale(1.1);
+}
+.socMenu{
+  margin: 0;
+}
+.footer{
+  font-family: "Kelly Slab", serif;
+font-size: 24px;
+display: flex;
+justify-content: center;
+text-shadow: 10px 10px 5px #00000082;
 }
