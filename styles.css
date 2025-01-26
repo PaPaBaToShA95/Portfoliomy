@@ -67,7 +67,7 @@ body{
   height: 200px;
   border-radius: 30px;
   background-color: #ffffff;
-  background-image: url(logo.svg);
+  background-image: url(img/logo.svg);
   background-repeat: no-repeat;
   background-size: 200px 200px;
   border: solid 2px black;
@@ -78,7 +78,7 @@ body{
   height: 200px;
   border-radius: 30px;
   background-color: #ffffff;
-  background-image: url(whirl.svg);
+  background-image: url(img/whirl.svg);
   background-repeat: no-repeat;
   background-size: 200px 200px;
   border: solid 2px black;
@@ -89,7 +89,7 @@ body{
   height: 200px;
   border-radius: 30px;
   background-color: #000000;
-  background-image: url(enver.svg);
+  background-image: url(img/enver.svg);
   background-repeat: no-repeat;
   background-size: 200px 200px;
   border: solid 2px black;
@@ -100,7 +100,7 @@ body{
   height: 200px;
   border-radius: 30px;
   background-color: #000000;
-  background-image: url(baza.webp);
+  background-image: url(img/baza.webp);
   background-repeat: no-repeat;
   background-size: 200px 200px;
   border: solid 2px black;
@@ -111,7 +111,7 @@ body{
   height: 200px;
   border-radius: 30px;
   background-color: #000000;
-  background-image: url(TTT.webp);
+  background-image: url(img/TTT.webp);
   background-repeat: no-repeat;
   background-size: 200px 200px;
   border: solid 2px black;
@@ -122,7 +122,7 @@ body{
   height: 200px;
   border-radius: 30px;
   background-color: #000000;
-  background-image: url(faviconiphone.webp);
+  background-image: url(img/faviconiphone.webp);
   background-repeat: no-repeat;
   background-size: 200px 200px;
   border: solid 2px black;
@@ -155,7 +155,7 @@ body{
 }
 .MyWorks{
   
-  background-image: url(MyWorks.svg);
+  background-image: url(img/MyWorks.svg);
   width: 1150px;
   height: 670px;
   margin: 150px auto;
@@ -182,7 +182,7 @@ body{
   display: flex;
   width: 1150px;
   height: 670px;
-  background-image: url(Kontact.svg);
+  background-image: url(img/Kontact.svg);
   margin: 150px auto;
   justify-content: space-between;
   align-items: flex-start;
