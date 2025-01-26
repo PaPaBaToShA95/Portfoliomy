@@ -22,11 +22,18 @@
         </a>
       </div>
       <div class="menuMenu">
-      <script>
+   <script>
   function scrollToTarget(event, sectionId) {
-    event.preventDefault();
+    event.preventDefault(); 
     const target = document.getElementById(sectionId);
-    target.scrollIntoView({ behavior: 'smooth', block: 'end' });
+    const offset = 130; 
+    const elementPosition = target.getBoundingClientRect().top + window.pageYOffset;
+    const offsetPosition = elementPosition - offset;
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: 'smooth'
+      
+    });
   }
 </script>
         <ul class="headerMenu">
