@@ -16,12 +16,12 @@ const chatId = '382096637'; // Замінити на фактичний chatId
 
 // Обробка запиту з сайту
 app.post('/send-message', (req, res) => {
-    const { name, email, message } = req.body;
+    const { name, text, message } = req.body;
 
-    if (name && email && message) {
+    if (name && text && message) {
         const text = `Нове повідомлення з сайту:
         Ім'я: ${name}
-        Email: ${email}
+        Телефон або NickName: ${text}
         Повідомлення: ${message}`;
 
         bot.sendMessage(chatId, text);

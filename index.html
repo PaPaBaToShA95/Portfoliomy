@@ -177,7 +177,7 @@
         <div id="cont" class="kont">
           <div class="call">
             <p class="callTitle">Зворотній зв`язок</p>
-            <form id="contactForm">
+            <form class="form1" id="contactForm">
               <input
                 class="name"
                 type="text"
@@ -186,10 +186,10 @@
                 required
               />
               <input
-                class="email"
-                type="email"
-                name="email"
-                placeholder="Ваш email"
+                class="name"
+                type="text"
+                name="text"
+                placeholder="Ваш номер або TelegramId"
                 required
               />
               <textarea
@@ -198,7 +198,7 @@
                 placeholder="Ваше повідомлення"
                 required
               ></textarea>
-              <button type="submit">Надіслати</button>
+              <button class="btn" type="submit">Надіслати</button>
             </form>
 
             <script>
@@ -209,9 +209,8 @@
 
                   const name =
                     document.querySelector('input[name="name"]').value;
-                  const email = document.querySelector(
-                    'input[name="email"]'
-                  ).value;
+                  const email =
+                    document.querySelector('input[name="text"]').value;
                   const message = document.querySelector(
                     'textarea[name="message"]'
                   ).value;
@@ -221,7 +220,7 @@
                     {
                       method: "POST",
                       headers: { "Content-Type": "application/json" },
-                      body: JSON.stringify({ name, email, message }),
+                      body: JSON.stringify({ name, text, message }),
                     }
                   );
                   window.location.href =
