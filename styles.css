@@ -257,6 +257,14 @@ body {
 
 
 }
+.message{
+   font-family: "Kelly Slab", serif;
+  font-weight: 400;
+  font-size: 32px;
+  width: 450px;
+  height: auto;
+  border-radius: 15px;
+}
 
 .email {
   font-family: "Kelly Slab", serif;
