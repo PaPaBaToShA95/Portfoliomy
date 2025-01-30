@@ -12,7 +12,7 @@ app.use(cors({ origin: 'https://papabatosha95.github.io' })); // Дозволя�
 app.use(bodyParser.json());
 
 // Встав ID чату з ботом
-const chatId = 'YOUR_CHAT_ID'; // Замінити на фактичний chatId
+const chatId = '382096637'; // Замінити на фактичний chatId
 
 // Обробка запиту з сайту
 app.post('/send-message', (req, res) => {
