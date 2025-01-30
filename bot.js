@@ -4,11 +4,20 @@ const bodyParser = require('body-parser');
 const cors = require('cors'); // Додаємо CORS
 
 // Встав токен твого бота
-const token = '7593427894:AAG-TA51WjcGxKF_6Etl_PjnNpFYkSywFgY';
+const token = '7593427894:AAHqlNpEHWSEAwj_ByAj9LADwmBHMLCZQC8';
 const bot = new TelegramBot(token, { polling: true });
 
 const app = express();
-app.use(cors({ origin: 'https://papabatosha95.github.io' })); // Дозволяємо запити тільки з твого сайту
+const corsOptions = {
+    origin: ['https://papabatosha95.github.io', 'http://127.0.0.1:5500'],
+    methods: ['GET', 'POST', 'OPTIONS'],
+    allowedHeaders: ['Content-Type'],
+    credentials: true
+};
+
+app.use(cors(corsOptions));
+
+
 app.use(bodyParser.json());
 
 // Встав ID чату з ботом
