@@ -19,12 +19,12 @@ app.post('/send-message', (req, res) => {
     const { name, text, message } = req.body;
 
     if (name && text && message) {
-        const text = `Нове повідомлення з сайту:
+        const formattedMessage = `Нове повідомлення з сайту:
         Ім'я: ${name}
         Телефон або NickName: ${text}
         Повідомлення: ${message}`;
 
-        bot.sendMessage(chatId, text);
+        bot.sendMessage(chatId, formattedMessage);
         res.status(200).send('Повідомлення надіслано');
     } else {
         res.status(400).send('Помилка: всі поля обовязкові для заповнення');
