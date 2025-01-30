@@ -257,8 +257,9 @@ body {
 
 
 }
-.message{
-   font-family: "Kelly Slab", serif;
+
+.message {
+  font-family: "Kelly Slab", serif;
   font-weight: 400;
   font-size: 32px;
   width: 450px;
@@ -294,7 +295,8 @@ body {
   font-size: 24px;
 
 }
-.form1{
+
+.form1 {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -340,6 +342,7 @@ body {
   }
 
   .test {
+    z-index: 1;
     position: sticky;
     top: 0;
     display: flex;
@@ -347,7 +350,22 @@ body {
     justify-content: center;
   }
 
+  .textam {
+    margin: 15px;
+    color: #ffffff;
+    font-size: 22px;
+  }
+
+
+  .foot {
+    display: flex;
+    justify-content: center;
+  }
+
   .aboutMeRes {
+    margin-top: 50px;
+    margin-bottom: 150px;
+    border-radius: 20px;
     width: 90%;
     height: max-content;
     display: block;
@@ -356,23 +374,27 @@ body {
     font-weight: 400;
     position: relative;
   }
-.AboutMe{
-  display: flex;
-  justify-content: center;
-}
+
+  .AboutMe {
+    display: flex;
+    justify-content: center;
+  }
+
   .aMRIMG {
     width: 200px;
     height: 200px;
-float: right;
-position: absolute;
-bottom: 0;
-right: 0;
+    float: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
   }
-.div{
-  width: 200px;
-  height:200px;
-  float: right;
-}
+
+  .div {
+    width: 200px;
+    height: 200px;
+    float: right;
+  }
+
   .aboutMeBlok {
     display: none;
   }
@@ -390,11 +412,31 @@ right: 0;
   }
 
   .MyWorks {
-    display: none;
+    height: max-content;
+    width: 90%;
+    background-image: none;
+    background-color: lightgreen;
+    border-radius: 20px;
+  }
+
+  .firstline {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .secondline {
+    margin: 100px auto auto auto;
+    flex-direction: column;
+    align-items: center;
   }
 
   .kont {
-    display: none;
+    width: 95%;
+    height: max-content;
+    flex-direction: column;
+    background-image: none;
+    background-color: brown;
+    border-radius: 20px;
   }
 
   .logoMob {
@@ -420,10 +462,35 @@ right: 0;
   .container {
     width: 95%;
   }
-    .headerMenu {
-        padding: 0;
-        margin: 4vw;
-        display: flex;
-        gap: 5vw;
-    }
+
+  .headerMenu {
+    padding: 0;
+    margin: 4vw;
+    display: flex;
+    gap: 5vw;
+  }
+  .call{
+    width: 90%;
+    margin: auto;
+    padding: 0;
+  }
+  .name{
+    width: 90%;
+  }
+  .message{
+    width: 90%;
+  }
+  .btn{
+    width: 90%;
+    margin: auto;
+  }
+  .form1{
+    margin: auto auto 50px auto;
+            display: flex
+;
+        align-items: center;
+  }
+  .soc{
+    display: none;
+  }
 }
