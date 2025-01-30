@@ -27,7 +27,7 @@ app.post('/send-message', (req, res) => {
         bot.sendMessage(chatId, text);
         res.status(200).send('Повідомлення надіслано');
     } else {
-        res.status(400).send('Помилка: всі поля обов'язкові для заповнення');
+        res.status(400).send('Помилка: всі поля обовязкові для заповнення');
     }
 });
 
