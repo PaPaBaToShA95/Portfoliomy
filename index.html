@@ -188,7 +188,7 @@
               <input
                 class="name"
                 type="text"
-                name="text"
+                name="text1"
                 placeholder="Ваш номер або TelegramId"
                 required
               />
@@ -209,8 +209,9 @@
 
                   const name =
                     document.querySelector('input[name="name"]').value;
-                  const email =
-                    document.querySelector('input[name="text"]').value;
+                  const text = document.querySelector(
+                    'input[name="text1"]'
+                  ).value;
                   const message = document.querySelector(
                     'textarea[name="message"]'
                   ).value;
